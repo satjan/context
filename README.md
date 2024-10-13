@@ -1,6 +1,6 @@
 # Package context
 
-![Project status](https://img.shields.io/badge/version-1.0-green.svg)
+![Project status](https://img.shields.io/badge/version-1.0.1-green.svg)
 
 ## Installation
 
