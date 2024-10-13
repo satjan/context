@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/gofiber/fiber/v2"
-	context "github.com/satjan/validator"
+	"github.com/satjan/context"
 	"log"
 )
 

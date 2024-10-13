@@ -4,7 +4,7 @@ import (
 	"github.com/go-playground/locales/mn"
 	ut "github.com/go-playground/universal-translator"
 	"github.com/go-playground/validator/v10"
-	locale2 "github.com/satjan/validator/locale"
+	"github.com/satjan/context/locale"
 )
 
 var Instance Validator
@@ -27,7 +27,7 @@ func Validate() (*validator.Validate, ut.Translator) {
 	uni := ut.New(locale, locale)
 	trans, _ := uni.GetTranslator("mn")
 	validate := validator.New()
-	err := locale2.RegisterDefaultTranslations(validate, trans)
+	err := _locale.RegisterDefaultTranslations(validate, trans)
 	if err != nil {
 		return nil, nil
 	}

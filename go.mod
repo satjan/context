@@ -1,4 +1,4 @@
-module github.com/satjan/validator
+module github.com/satjan/context
 
 go 1.23.1
 
