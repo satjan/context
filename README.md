@@ -8,7 +8,7 @@ Use go get.
 
 	go get github.com/satjan/context
 
-Then import the validator package into your own code.
+Then import the package into your own code.
 
 	import "github.com/satjan/context"
 
