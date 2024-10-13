@@ -16,7 +16,7 @@ func main() {
 
 	app.Post("/", func(ctx *fiber.Ctx) error {
 		req := new(CreateDataReq)
-		if _, err := context.Parse(ctx, req); err != nil {
+		if err := context.Parse(ctx, req); err != nil {
 			return nil
 		}
 
