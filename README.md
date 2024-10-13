@@ -6,8 +6,6 @@ A custom Go package designed to enhance your Fiber applications by providing str
 - Input Validation: Utilize Go Validator to enforce data integrity and validation rules.
 - Custom JSON Responses: Return structured and consistent JSON responses for both successful and error scenarios.
 
-![Project status](https://img.shields.io/badge/version-1.0.1-green.svg)
-
 ## Installation
 
 Use go get.
