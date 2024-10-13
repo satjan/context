@@ -1,7 +1,7 @@
 # Context Package for Fiber
 A custom Go package designed to enhance your Fiber applications by providing streamlined request body parsing, validation, and structured JSON responses. This package integrates seamlessly with the Fiber framework and utilizes Go Validator for input validation, ensuring that your API is robust and user-friendly.
 
-Features
+### Features
 - Body Parsing: Effortlessly parse incoming request bodies using Fiber’s context.
 - Input Validation: Utilize Go Validator to enforce data integrity and validation rules.
 - Custom JSON Responses: Return structured and consistent JSON responses for both successful and error scenarios.
